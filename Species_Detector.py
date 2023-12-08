@@ -1,6 +1,3 @@
-from rich.traceback import install
-install(show_locals=True)
-
 import tensorflow
 from tensorflow import keras
 
