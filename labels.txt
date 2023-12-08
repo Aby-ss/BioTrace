@@ -1,0 +1,6 @@
+0 Greater  Flamingo
+1 Black-winged  Stilt
+2 Duck
+3 Dog
+4 Fox
+5 Human
