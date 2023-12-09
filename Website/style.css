@@ -151,3 +151,49 @@ section {
 .bottom-layer1 {
   background-image: url('./layered-peaks-haikei.svg');
 }
+
+.center-container {
+  position: relative; /* Position the container relative to its normal position */
+  display: flex;
+  margin-top: 450px;
+  justify-content: center;
+  z-index: 1; /* Ensure the boxes are on top */
+}
+
+.box {
+  position: relative; /* Position the boxes relative to the container */
+  height: 550px; /* Adjust height as needed */
+  width: 380px; /* Adjust width as needed */
+  background-color: #A7c957; /* Change background color */
+  padding: 80px; /* Add padding inside the boxes */
+  margin: 5px; /* Add margin for spacing between boxes */
+  z-index: 2; /* Ensure the boxes are on top of the green box */
+  border-radius: 25px;
+}
+
+.box p {
+  font-weight: bold; /* Make the text bold */
+  font-size: 30px; /* Increase the text size */
+  color: #292929;
+}
+
+.big-green-box {
+  position: absolute; /* Position the green box absolutely within the container */
+  top: 250px; /* Move the green box down by 50 pixels */
+  left: 50%; /* Position it halfway across the container */
+  transform: translateX(-50%); /* Center it horizontally */
+  height: 1750px; /* Adjust height as needed */
+  width: 100%; /* Stretch across the container */
+  background-color: #6a994e; /* Change to the desired green color */
+  z-index: 1; /* Set the green box behind the boxes */
+}
+
+.up:nth-child(odd) {
+  align-self: flex-end; /* Align odd-numbered boxes to flex-end */
+  margin-bottom: 85px;
+}
+
+.down:nth-child(even) {
+  align-self: flex-start; /* Align even-numbered boxes to flex-start */
+  margin-top: 85px;
+}
