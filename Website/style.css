@@ -1,120 +1,153 @@
 body {
-    transform: scale(0.65);
-    transform-origin: top left;
-    width: 153.846%; /* (1 / 0.75) = 133.33% to maintain original content size */
-    margin: 0;
-    font-family: 'Prompt', sans-serif;
-    color: white;
-    background: #292929;
-    overflow-x: hidden;
-  }
+  transform: scale(0.65);
+  transform-origin: top left;
+  width: 153.846%; /* (1 / 0.75) = 133.33% to maintain original content size */
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+  color: white;
+  background: #F2E8cf;
+  overflow-x: hidden;
+}
       
-  h1 {
-    font-size: 4rem;
-    text-align: center; /* Center align the heading */
-    max-width: 800px; /* Limit the maximum width of the heading */
-    margin: 0 auto; /* Center the heading horizontally */
-    max-width: 100%;
-  }
-  
-  p {
-    font-size: 1.5rem;
-    text-align: left; /* Center align the paragraphs */
-    max-width: 1200px; /* Limit the maximum width of the paragraphs */
-    margin: 0 auto; /* Center the paragraphs horizontally */
-  }
-  
-  .larger-image {
-    width: 85%;
-    height: 350px;
-  }
-  
-  .image-bottom {
-    margin-bottom: 250px;
-  }
-  
-  .banner {
-    width: 100%;
-    height: 85%;
-    margin-bottom: 250px;
-  }
-  
-  section {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      min-height: 450px;
-      padding-top: 100px;
-  }
-  
-  .short_section {
-      height: 20px;
-  }
-  
-  .paragraph-spacing {
-    margin-bottom: 55px; /* Adjust the value as per your desired spacing */
-  }
-  
-  .header-spacing {
-    margin-bottom: 55px;
-    max-width: 100%;
-  }
-  
-  .center-paragraph {
-    text-align: center;
-  }
-  
-  .longer-section {
-    min-height: 550px;
-    margin-top: 15px;
-  }
-  
-  .tbl-section {
-    max-height: 1650px;
-  }
-  
-  .banner-section {
-    background-color: #6a994e;
-    height: 200px;
-    width: 350vw; /* Set the width to 100% of the viewport width */
-    margin-top: -100px; /* Adjust the negative margin to increase the top size */
-    display: flex; /* Enable flexbox layout */
-    align-items: center; /* Center the content vertically */
-    justify-content: center; /* Center the content horizontally */
-  }
-  
-  .small-banner-section {
-    background-color: #386641;
-    height: 100px;
-    width: 350vw; /* Set the width to 100% of the viewport width */
-    margin-top: 250px; /* Adjust the negative margin to increase the top size */
-    margin-bottom: 20px;
-    display: flex; /* Enable flexbox layout */
-    align-items: center; /* Center the content vertically */
-    justify-content: center; /* Center the content horizontally */
-  }
-  
-  .title-banner-section {
-    background-color: #A7c957;
-    height: 100px;
-    width: 350vw; /* Set the width to 100% of the viewport width */
-    margin-top: 10px; /* Adjust the negative margin to increase the top size */
-    margin-bottom: 20px;
-    display: flex; /* Enable flexbox layout */
-    align-items: center; /* Center the content vertically */
-    justify-content: center; /* Center the content horizontally */
-  }
-  
-  
-  .brown-banner-section {
-    background-color: #936639;
-    height: 150px;
-    width: 350vw; /* Set the width to 100% of the viewport width */
-    margin-top: 20px; /* Adjust the negative margin to increase the top size */
-    margin-bottom: 20px;
-    display: flex; /* Enable flexbox layout */
-    align-items: center; /* Center the content vertically */
-    justify-content: center; /* Center the content horizontally */
-    text-align: center;
-  }
+h1 {
+  font-size: 4rem;
+  text-align: center; /* Center align the heading */
+  max-width: 800px; /* Limit the maximum width of the heading */
+  margin: 0 auto; /* Center the heading horizontally */
+  max-width: 100%;
+  color: #292929;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: left; /* Center align the paragraphs */
+  max-width: 1200px; /* Limit the maximum width of the paragraphs */
+  margin: 0 auto; /* Center the paragraphs horizontally */
+}
+
+header {
+  background-color: #292929;
+  padding: 10px;
+  color: #fff;
+  font-family: 'Prompt', sans-serif;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Prompt', sans-serif;
+  font-size: 20px;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.larger-image {
+  width: 85%;
+  height: 350px;
+}
+
+.image-bottom {
+  margin-bottom: 250px;
+}
+
+.banner {
+  width: 100%;
+  height: 85%;
+  margin-bottom: 250px;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 450px;
+    padding-top: 100px;
+}
+
+.short_section {
+    height: 20px;
+}
+
+.paragraph-spacing {
+  margin-bottom: 55px; /* Adjust the value as per your desired spacing */
+}
+
+.header-spacing {
+  margin-bottom: 55px;
+  max-width: 100%;
+}
+
+.center-paragraph {
+  text-align: center;
+}
+
+.longer-section {
+  min-height: 550px;
+  margin-top: 15px;
+}
+
+.tbl-section {
+  max-height: 1650px;
+}
+
+.banner-section {
+  background-color: #6a994e;
+  height: 200px;
+  width: 350vw; /* Set the width to 100% of the viewport width */
+  margin-top: -100px; /* Adjust the negative margin to increase the top size */
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Center the content vertically */
+  justify-content: center; /* Center the content horizontally */
+}
+
+.small-banner-section {
+  background-color: #386641;
+  height: 100px;
+  width: 350vw; /* Set the width to 100% of the viewport width */
+  margin-top: 250px; /* Adjust the negative margin to increase the top size */
+  margin-bottom: 20px;
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Center the content vertically */
+  justify-content: center; /* Center the content horizontally */
+}
+
+.title-banner-section {
+  background-color: #A7c957;
+  height: 100px;
+  width: 350vw; /* Set the width to 100% of the viewport width */
+  margin-top: 10px; /* Adjust the negative margin to increase the top size */
+  margin-bottom: 20px;
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Center the content vertically */
+  justify-content: center; /* Center the content horizontally */
+}
+
+
+.brown-banner-section {
+  background-color: #936639;
+  height: 150px;
+  width: 350vw; /* Set the width to 100% of the viewport width */
+  margin-top: 20px; /* Adjust the negative margin to increase the top size */
+  margin-bottom: 20px;
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Center the content vertically */
+  justify-content: center; /* Center the content horizontally */
+  text-align: center;
+}
+
+.bottom-layer1 {
+  background-image: url('./layered-peaks-haikei.svg');
+}
