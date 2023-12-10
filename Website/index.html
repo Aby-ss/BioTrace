@@ -22,11 +22,30 @@
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;900&display=swap" rel="stylesheet" />
+
+      <title>My Website</title>
+      <style>
+        /* Adjust image size */
+        img {
+            width: 150px; /* Slightly larger size */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 5px;
+        }
+
+        /* Position the image in the top left corner */
+        .top-left {
+            position: absolute;
+            top: 30px; /* Moved slightly further from the top */
+            left: 30px; /* Moved slightly further from the left */
+        }
+      </style>
 </head>
 <body>
 
+  <img class="top-left" src="logo.png" alt="Image">
+
   <h1 style="font-size: 500px;">BioTrace</h1>
-  <h1>!Image!</h1>
+  <img src="sidefacing.png" style="width: 80%; max-width: 750px; display: block; margin: 0 auto; max-width: 100%; height: auto; margin-top: -500px;" >
 
   <h1 style="font-size: 50px; line-height: 105%; max-width: 1500px;">BioTrace is an integrated system of camera traps and sound sensors that regularly provides data input to an AI processing hub which can detect animals and record their numbers.</h1>
 
@@ -37,7 +56,7 @@
 
   <div class="picture-text-section">
     <div class="text">
-      <p style="color: #292929; font-weight: bold; font-size: 50px; text-align: center; line-height: 105%; max-width: 950px;">In Addition the robust design, BioTrace is fitted with an intelligent Machine Learning Model which constantly detects and keeps track of the animals and their species located in the observable radius of the device.</p>
+      <p style="color: #FFFFFF; font-weight: bold; font-size: 50px; text-align: center; line-height: 105%; max-width: 950px;">In Addition the robust design, BioTrace is fitted with an intelligent Machine Learning Model which constantly detects and keeps track of the animals and their species located in the observable radius of the device.</p>
     </div>
     <div class="image">
         <img src="Species-2.jpeg" alt="Ducks in the Water">
@@ -51,7 +70,7 @@
 
   <div class="picture-text-section" style="margin-top: 150px;">
     <div class="text">
-      <p style="color: #292929; font-weight: bold; font-size: 50px; text-align: center; line-height: 105%; max-width: 950px;">The AI was first trained using real image data and multiple different iterations of the species and animals to make it's predictions as reliable as possible</p>
+      <p style="color: #FFFFFF; font-weight: bold; font-size: 50px; text-align: center; line-height: 105%; max-width: 950px;">The AI was first trained using real image data and multiple different iterations of the species and animals to make it's predictions as reliable as possible</p>
     </div>
     <div style="max-width: 50%; height: 50%; flex: 1; text-align: center; max-width: 150%; width: 90%; height: auto;">
         <img src="ML_Model.jpg">
@@ -63,7 +82,7 @@
         <img src="Bird_Detection.png">
     </div>
     <div class="text">
-      <p style="color: #292929; font-weight: bold; font-size: 50px; text-align: center; line-height: 105%; max-width: 950px;">The AI is able to detect the trained Data with ease and can successfully render clear images to the user via a wireless data transfer system which focuses on high resolution results</p>
+      <p style="color: #FFFFFF; font-weight: bold; font-size: 50px; text-align: center; line-height: 105%; max-width: 950px;">The AI is able to detect the trained Data with ease and can successfully render clear images to the user via a wireless data transfer system which focuses on high resolution results</p>
     </div>
   </div>
 
@@ -77,9 +96,9 @@
 
   
   <div class="paragraphs-container" style="margin-top: 50px;">
-    <p style="font-size: 25px; color: #292929; text-align: center; line-height: 105%; font-weight: semi-bold;">Recognising whether there are animals present in image / sound recording. Image recognition and sound recognition will have two large datasets, separate for animals / miscellaneous.</p>
-    <p style="font-size: 25px; color: #292929; text-align: center; line-height: 105%; font-weight: semi-bold;">Determine the number of animals within the image and produce zoomed-in images of each animal. Determine if there are overlapping sounds and if overlap is present isolate different sounds.</p>
-    <p style="font-size: 25px; color: #292929; text-align: center; line-height: 105%; font-weight: semi-bold;">Compare zoomed-in images to existing dataset of images of common animal species in the wetland. Then based on the animal's size, shape, and body temperature: record their species.</p>
+    <p style="font-size: 25px; color: #FFFFFF; text-align: center; line-height: 105%; font-weight: semi-bold;">Recognising whether there are animals present in image / sound recording. Image recognition and sound recognition will have two large datasets, separate for animals / miscellaneous.</p>
+    <p style="font-size: 25px; color: #FFFFFF; text-align: center; line-height: 105%; font-weight: semi-bold;">Determine the number of animals within the image and produce zoomed-in images of each animal. Determine if there are overlapping sounds and if overlap is present isolate different sounds.</p>
+    <p style="font-size: 25px; color: #FFFFFF; text-align: center; line-height: 105%; font-weight: semi-bold;">Compare zoomed-in images to existing dataset of images of common animal species in the wetland. Then based on the animal's size, shape, and body temperature: record their species.</p>
   </div>
   
   <div class="title-banner-section" style="margin-top: 150px; margin-bottom: 100px;">
@@ -89,12 +108,18 @@
   <div style="text-align: center;">
     <img src="Code.png" alt="Code Image" style="width: 40%; border-radius: 25px; margin-left: -950px;">
   </div>
-
+  
   <div style="margin-top: -1080px;">
-    <p style="font-size: 30px; color: #292929; text-align: center; line-height: 120%; font-weight: bold; max-width: 900px; margin-right: 50px;">This code predicts live webcam images using TensorFlow and Keras with a pre-trained model. It captures, resizes, and displays predictions, allowing a clean exit via the "ESC" key. It's a straightforward tool for real-time image classification from a webcam feed.</p>
-    <p style="font-size: 30px; color: #292929; text-align: center; line-height: 120%; font-weight: bold; max-width: 900px; margin-right: 50px; margin-top: 180px;">This code snippet is a practical implementation of a real-time image classification system using a pre-trained model and a computer's webcam. It utilizes TensorFlow and Keras to load a pre-trained neural network model (keras_Model.h5) for image classification and OpenCV (cv2) to access the computer's default camera and handle image processing.</p>
-    <p style="font-size: 30px; color: #292929; text-align: center; line-height: 120%; font-weight: bold; max-width: 900px; margin-right: 50px; margin-top: 180px;">Overall, this code provides a straightforward yet effective setup for real-time image classification through a webcam, showcasing the identified class and confidence scores while allowing for easy interaction and termination of the program.</p>
+    <p style="font-size: 30px; color: #FFFFFF; text-align: center; line-height: 120%; font-weight: bold; max-width: 900px; margin-right: 50px;">This code predicts live webcam images using TensorFlow and Keras with a pre-trained model. It captures, resizes, and displays predictions, allowing a clean exit via the "ESC" key. It's a straightforward tool for real-time image classification from a webcam feed.</p>
+    <p style="font-size: 30px; color: #FFFFFF; text-align: center; line-height: 120%; font-weight: bold; max-width: 900px; margin-right: 50px; margin-top: 180px;">This code snippet is a practical implementation of a real-time image classification system using a pre-trained model and a computer's webcam. It utilizes TensorFlow and Keras to load a pre-trained neural network model (keras_Model.h5) for image classification and OpenCV (cv2) to access the computer's default camera and handle image processing.</p>
+    <p style="font-size: 30px; color: #FFFFFF; text-align: center; line-height: 120%; font-weight: bold; max-width: 900px; margin-right: 50px; margin-top: 180px;">Overall, this code provides a straightforward yet effective setup for real-time image classification through a webcam, showcasing the identified class and confidence scores while allowing for easy interaction and termination of the program.</p>
   </div>
+  <img src="upfront.png" alt="Code Image" style="width: 125%; border-radius: 25px; margin-left: -1500px; margin-top: -1400px;">
+
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <img src="sideways.png" style="width: 80%; max-width: 2000px; height: auto;">
+  </div>
+  <h1 style="margin-top: -350px;">BioTrace. The Future of Biodiversity Control.</h1>
 
 
 </body>

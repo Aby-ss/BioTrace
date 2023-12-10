@@ -5,7 +5,7 @@ body {
   margin: 0;
   font-family: 'Prompt', sans-serif;
   color: white;
-  background: #F2E8cf;
+  background: #303030;
   overflow-x: hidden;
 }
       
@@ -15,7 +15,7 @@ h1 {
   max-width: 800px; /* Limit the maximum width of the heading */
   margin: 0 auto; /* Center the heading horizontally */
   max-width: 100%;
-  color: #292929;
+  color: #FFFFFF;
 }
 
 p {
@@ -26,7 +26,7 @@ p {
 }
 
 header {
-  background-color: #292929;
+  background-color: #FFFFFF;
   padding: 10px;
   color: #fff;
   font-family: 'Prompt', sans-serif;
