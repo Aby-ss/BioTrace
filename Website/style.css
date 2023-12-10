@@ -187,3 +187,38 @@ section {
   }
   /* Adjust any other styles for smaller screens here */
 }
+
+.picture-text-section-2 {
+  margin-top: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the text */
+.picture-text-section-2 .text {
+  flex: 1;
+  padding-right: 20px; /* Adjust the spacing between text and image */
+  text-align: justify; /* Align text as needed */
+}
+
+/* Style for the image */
+.picture-text-section-2 .image {
+  flex: 1;
+  text-align: center; /* Center the image horizontally */
+}
+
+/* Scale up the image */
+.picture-text-section-2 .image img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+  width: 80%; /* Adjust the width of the image */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .picture-text-section-2 {
+      flex-direction: column;
+  }
+  /* Adjust any other styles for smaller screens here */
+}
