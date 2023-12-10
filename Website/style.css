@@ -222,3 +222,32 @@ section {
   }
   /* Adjust any other styles for smaller screens here */
 }
+
+.content {
+  text-align: center; /* Aligns content in the center */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Adds space between images and paragraphs */
+}
+
+.image-container img {
+  width: 250px;
+  height: auto;
+  margin: 0 350px;
+}
+
+.paragraphs-container {
+  display: flex;
+}
+
+.paragraphs-container p {
+  width: 500px; /* Set a fixed width for paragraphs */
+}
+
+/* Adjust the gap between paragraphs */
+.paragraphs-container p:not(:last-child) {
+  margin-right: 250px; /* Creates a 250px gap between paragraphs */
+}
