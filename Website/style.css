@@ -162,7 +162,7 @@ section {
 
 .box {
   position: relative; /* Position the boxes relative to the container */
-  height: 550px; /* Adjust height as needed */
+  height: 350px; /* Adjust height as needed */
   width: 380px; /* Adjust width as needed */
   background-color: #A7c957; /* Change background color */
   padding: 80px; /* Add padding inside the boxes */
@@ -196,4 +196,39 @@ section {
 .down:nth-child(even) {
   align-self: flex-start; /* Align even-numbered boxes to flex-start */
   margin-top: 85px;
+}
+
+.picture-text-section {
+  margin-top: 1550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the text */
+.text {
+  flex: 1;
+  padding-right: 20px; /* Adjust the spacing between text and image */
+  text-align: justify; /* Align text as needed */
+}
+
+/* Style for the image */
+.image {
+  flex: 1;
+  text-align: center; /* Center the image horizontally */
+}
+
+/* Scale up the image */
+.image img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+  width: 80%; /* Adjust the width of the image */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .content {
+      flex-direction: column;
+  }
+  /* Adjust any other styles for smaller screens here */
 }
