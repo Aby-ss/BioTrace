@@ -23,3 +23,6 @@ The project meticulously calculates the number of cameras required for effective
 The backbone of BioTrace lies in its AI processing hub. This central unit processes the data collected from cameras and sound sensors, employing sophisticated algorithms to identify species and record population numbers. Through continuous learning, the AI enhances its accuracy in species recognition, providing valuable insights into biodiversity trends.
 
 Through its multifaceted approach, BioTrace stands as an innovative solution that not only improves biodiversity tracking in wetlands but also sets the stage for advancements in conservation efforts by leveraging technology and data-driven methodologies.
+
+
+[![wakatime](https://wakatime.com/badge/github/Aby-ss/BioTrace.svg)](https://wakatime.com/badge/github/Aby-ss/BioTrace)
